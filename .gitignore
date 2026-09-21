@@ -1,0 +1,29 @@
+.dart_tool/
+.idea/
+.metadata
+.packages
+.pub/
+build/
+coverage/
+*.iml
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+
+# Platform build outputs
+android/.gradle/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# Logs
+*.log

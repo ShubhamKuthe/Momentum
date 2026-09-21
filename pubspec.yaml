@@ -1,0 +1,56 @@
+name: momentum
+description: A personalized habit-building fitness app for MSc COMP702.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  fl_chart: ^0.66.2
+  intl: ^0.18.0
+  uuid: ^4.2.1
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.3.2
+  sensors_plus: ^7.1.0
+  flutter_local_notifications: ^19.4.0
+  timezone: ^0.10.1
+  flutter_timezone: ^4.1.1
+  health: ^13.3.1
+  permission_handler: ^12.0.1
+  firebase_core: ^4.12.1
+  firebase_auth: ^6.5.6
+  cloud_firestore: ^6.7.1
+  google_sign_in: ^7.2.0
+  sign_in_with_apple: ^8.1.0
+  image_picker: ^1.2.0
+  image_cropper: ^12.2.1
+  syncfusion_flutter_xlsio: 33.2.13
+  syncfusion_officechart: ^33.2.13
+  file_saver: ^0.4.0
+  open_filex: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  shared_preferences_platform_interface: ^2.4.1
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/images/momentum_logo.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/google_logo.png
+    - assets/images/momentum_logo.png
+    - assets/images/notification_logo.png
